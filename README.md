@@ -4,6 +4,10 @@ A retrieval-augmented generation (RAG) chatbot that answers beginner questions a
 
 > **Disclaimer:** This chatbot only summarizes the guidebook. It is not a fatwa and does not replace an Islamic teacher or mentor.
 
+## Live demo
+
+An example deployment of the app is available at: https://mualaf-guide-chatbot.streamlit.app
+
 ## Features
 
 - Answers questions using only retrieved passages from the guidebook; if nothing relevant is found, it returns a fallback message instead of guessing.
