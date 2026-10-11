@@ -11,6 +11,7 @@ DIGIT_LINE = re.compile(r'^\s*\d{1,3}\s*$')
 CHAR_FIXES = {
     'ﬁ': 'fi', 'ﬂ': 'fl', 'ﬀ': 'ff', 'ﬃ': 'ffi', 'ﬄ': 'ffl',
     '’': "'", '‘': "'", '“': '"', '”': '"',
+    '¥': 'a',
 }
 
 WORD_FIXES = {
@@ -19,6 +20,8 @@ WORD_FIXES = {
     'tar¥wÏ^': 'tarawih',
     'Rama\\¥n': 'Ramadan',
     'mu¤ammad': 'Muhammad',
+    'Mu^ammad': 'Muhammad',
+    'ras‰lull¥h': 'rasulullah',
     'I^s¥n': 'Ihsan',
 }
 
